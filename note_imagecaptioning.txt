@@ -1,0 +1,17 @@
+- Càng tư nhiên bao nhiêu - Càng hiệu quả bấy nhiêu
+- tăng khả năng chính xác : làm mô hình phức tạp hơn & sạch dữ liệu hơn
+- đưa input vào mô hình -> đưa kết quả so sánh với nhãn thực 
++ mô hình
++ hàm mất mát
+phan loai 2 lop dung singmoid, nhieu lop dung softmax
+ma tran, dua vao vector -> duoi ra
+dropout: cong nghe chong overfitting: tat 1 so node trong layer, model khong hoat dong trong thoi gian do, lam cho model yeu hon chut. -> Hiệu chỉnh mô hình.
+
+- thuật toán training -> các tham số lúc đầu random -> thuật toán giúp lost function giảm đến nhỏ nhất
+- maximum -> ước lượng tham số sai lệch
+- tập validation kiểm tra tại thời điểm hiện tại, model có tốt với data chưa được train hayu không ?
+- train 80 - validation 20 : dungf validation de kiem tra
+CNN: tính không tuần tự
+RNN: tính học tuần tự
+- Cập nhật mô hình thông qua đạo hàm: GradientTape - tính đạo hàm bên ngoài, sau đó mới cập nhật
+- Dùng attention của lịch sử phía trước cộng feature match của ảnh để sinh từ tiếp theo
